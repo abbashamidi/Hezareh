@@ -3,3 +3,9 @@ window.addEventListener('load', function(){
         this.document.getElementById('preloader').style.display = 'none'
     }, 2500);
 })
+
+const menubtn = document.getElementById('menu-button');
+
+menubtn.addEventListener('click', ()=>{
+    alert('hey there')
+})
